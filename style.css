@@ -1,0 +1,67 @@
+*{
+
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: rgb(19, 63, 22);
+    padding:  40px 0px;
+    
+}
+.heading{
+    margin: auto;
+    color:white;
+    padding: 20px 0px;
+}
+#check-button{
+    /* color: brown; */
+    background-color: rgb(37, 156, 1);
+}
+.description{
+    margin: auto;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+#bill-amount{
+
+     height: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+#bill{
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+   
+}
+#cash{
+    color: white;
+    margin: auto;
+}
+#cash-given{
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#check-button{
+    height: 35px;
+    margin: 0px 120px;
+}
+#return{
+    color: white;
+}
